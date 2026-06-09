@@ -1,0 +1,66 @@
+﻿/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 0 !important;
+        padding: 0 !important;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+    
+    .sidebar.open {
+        width: 250px !important;
+        padding: 20px !important;
+    }
+    
+    .main-content {
+        margin-left: 0 !important;
+        padding: 15px !important;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    
+    .mobile-menu-btn {
+        display: block !important;
+    }
+    
+    table {
+        font-size: 12px !important;
+    }
+    
+    th, td {
+        padding: 8px 5px !important;
+    }
+    
+    .btn {
+        padding: 8px 12px !important;
+        font-size: 12px !important;
+    }
+    
+    h1 {
+        font-size: 20px !important;
+    }
+    
+    h2 {
+        font-size: 16px !important;
+    }
+    
+    .filter-bar {
+        flex-direction: column !important;
+    }
+    
+    input, select {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .stats-grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .card {
+        padding: 15px !important;
+    }
+}
